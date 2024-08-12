@@ -1,0 +1,107 @@
+backbone: "ViT-B/16"
+#n_prompt_tokens_L: 8
+n_prompt_tokens_L: 8
+n_prompt_tokens_V: 5
+loss_type: "ce"
+intrinsic_dim_L: 200
+intrinsic_dim_V: 200
+sigma: 1
+#k_shot: 0
+seed: 42
+bound: 0
+batch_size: 32
+popsize: 30
+train_mode: true
+budget: 60000
+
+dtd:
+  test_every: 12
+
+ucf101:
+#  budget: 25200
+  test_every: 12
+
+eurosat:
+#  budget: 25200
+  test_every: 12
+
+flower102:
+#  budget: 25200
+  test_every: 12
+
+pets:
+#  budget: 3600
+  test_every: 12
+
+food101:
+#  budget: 3600
+  test_every: 12
+
+aircraft:
+#  budget: 3600
+  test_every: 12
+
+caltech101:
+#  budget: 30
+  test_every: 12
+
+SUN397:
+  test_every: 12
+imagenet:
+  test_every: 12
+
+imagenet-a:
+  test_every: 12
+
+imagenet-r:
+  test_every: 12
+
+imagenet-sketch:
+  test_every: 12
+
+imagenet-v2:
+  test_every: 12
+
+cars:
+  test_every: 12
+#
+#Art:
+#  budget: 5400
+#  test_every: 6
+#
+#Clipart:
+#  budget: 5400
+#  test_every: 6
+#
+#Product:
+#  budget: 5400
+#  test_every: 6
+#
+#RealWorld:
+#  budget: 5400
+#  test_every: 6
+#
+#Visda:
+#  budget: 10800
+#  test_every: 6
+#
+#amazon:
+#  budget: 5400
+#  test_every: 6
+#
+#dslr:
+#  budget: 5400
+#  test_every: 6
+#
+#webcam:
+#  budget: 5400
+#  test_every: 6
+#
+#SUN397:
+#  budget: 18000
+#  test_every: 12
+#
+#ImageNet:
+#  budget: 14400
+#  test_every: 60
+
