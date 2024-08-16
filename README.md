@@ -11,5 +11,5 @@ https://github.com/MFAaaaaaa/B2TPT.git
 * Please manually download the datasets from the official websites, and modify the path of images.
 ## Training
 ```
-python B2TPT.py --task_name caltech101 --opt shallow_cma 
+python B2TPT.py --task_name caltech101 --opt B2TPT_config
 ```
