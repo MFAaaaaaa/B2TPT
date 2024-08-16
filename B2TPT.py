@@ -39,7 +39,7 @@ parser.add_argument("--parallel", action='store_true', help='Whether to allow pa
 args = parser.parse_args()
 
 assert "shallow" in args.opt, "Only shallow prompt tuning is supported in this file."
-cfg = yaml.load(open("./configs/shallow_prompt.yaml"), Loader=yaml.FullLoader)
+cfg = yaml.load(open("./configs/B2TPT_config.yaml"), Loader=yaml.FullLoader)
 
 current_time = datetime.now().strftime("%Y%m%d_%H%M%S")
 log_file_path = f'log/{args.task_name}_{current_time}.txt'
