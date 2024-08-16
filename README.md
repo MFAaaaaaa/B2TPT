@@ -1,14 +1,14 @@
 # B2TPT
 This is the implementation of " Black-box Test-Time Prompt Tuning for Vision-Language Models ".
 ## Framework
-XX
+![image](https://github.com/MFAaaaaaa/B2TPT/blob/main/model/A-Fram-B2TPT.png)
 ## Installation
 * Clone this repository.
 ```bash
-git clone https://github.com/MFAaaaaaa/ASOGE.git
+https://github.com/MFAaaaaaa/B2TPT.git
 ```
 ## Datasets
-XX
+* Please manually download the datasets from the official websites, and modify the peth of images.
 ## Training
 ```
 python B2TPT.py --task_name caltech101 --opt shallow_cma 
