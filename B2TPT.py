@@ -266,9 +266,9 @@ else:
         accuracy = []
         loss = []
         # best_prompt_text_all = torch.tensor([]).to("cuda")
-        # json_path = "/home/fameng/project/BPT-VLM/data/caltech101_Gen/split.json"
-        # folder_path = "/home/fameng/project/BPT-VLM/data/caltech101_Gen/image_data/"
-        # output_folder_path = "/home/fameng/project/BPT-VLM/heatmaps/"
+        # json_path = "/home/fameng/project/B2TPT/data/caltech101_Gen/split.json"
+        # folder_path = "/home/fameng/project/B2TPT/data/caltech101_Gen/image_data/"
+        # output_folder_path = "/home/fameng/project/B2TPT/heatmaps/"
         # batch_size = 32  # 根据需求调整批次大小
         # 从 JSON 文件中加载测试图像路径
         # test_image_paths = draw.load_test_images_from_json(json_path, folder_path)
@@ -307,7 +307,6 @@ else:
 
                 opt.tell(solutions, fitnesses)
                 print(i)
-                # print(acc_iter)
             # 绘图
 
 
