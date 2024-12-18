@@ -14,5 +14,7 @@ https://github.com/MFAaaaaaa/B2TPT.git
 ```
 python B2TPT.py --task_name caltech101 --opt B2TPT_config
 ```
-## Details
-To be realeased
+## Acknowledgements
+```
+Our code is based on [CoOp](https://github.com/KaiyangZhou/CoOp), [MAPLE](https://github.com/muzairkhattak/multimodal-prompt-learning), [BPT-VLM](https://github.com/BruthYU/BPT-VLM). We thank the authors for releasing their code. If you use our model and code, please consider citing these works as well.
+```
