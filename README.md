@@ -14,3 +14,5 @@ https://github.com/MFAaaaaaa/B2TPT.git
 ```
 python B2TPT.py --task_name caltech101 --opt B2TPT_config
 ```
+## Details
+To be realeased
